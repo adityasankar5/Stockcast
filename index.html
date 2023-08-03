@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="logo.jpeg.jpg">
-  <link rel="stylesheet" href="styles.css">
-  <title>StockCast</title>
+  <title>Login Page in HTML with CSS Code Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./styles.css">
+
 </head>
-  <body class="hero">
-    <div class="container">
-      <div class="stock-analysis">
-        <h1>STOCK ANALYSIS</h1>
-      </div>
-      <div class="stock-details-">
-        <h2>Stock Details</h2>
-      </div>
-      <div class="stock-id">
-        <h3>Stock id</h3>
-      </div>
-      <div class="from">
-        <h3>From date</h3>
-      </div>
-      <div class="to-">
-        <h3>To date</h3>
-      </div>
-      <div class="calculate-button">
-          <div class="center-center">
-            <a class="btn-glitch-fill">
-              <span class="text">// COMPUTE</span><span class="text-decoration">_</span><span class="decoration">&rArr;</span>
-            </a>
-          </div>
-        </div>
-      <div class="id-button">
-        <input type="number">
-      </div>
-      <div class="date-btn">
-        <input type="date">
-      </div>
-      <div class="date-btnb">
-        <input type="date">
-      </div>
-    </div>
-  </body>
-
-
+<body>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1>Welcome To Stockcast.</h1>
+		<p>Whatever little info we need to display</p>
+		<span>
+			<p>Login with social media</p>
+			<a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		</span>
+		</div>
+	</div>
+	
+	
+		<div class="right">
+		<h5>Stock<br>
+       Details</h5>
+		<p>New To Stockcast? <a href="#">Learn how it works</a> it takes less than a minute</p>
+		<div class="inputs">
+			<input type="text" placeholder="Stock ID">
+			<br>
+			<input type="date" placeholder="Start Date">
+      <br>
+			<input type="date" placeholder="End Date">
+		</div>
+			
+			<br><br>
+			
+		<div class="remember-me--forget-password">
+				<!-- Angular -->
+	<label>
+		<input type="checkbox" name="item" checked/>
+		<span class="text-checkbox">Remember me</span>
+	</label>
+			<p>forget password?</p>
+		</div>
+			
+			<br>
+			<button>Login</button>
+	</div>
+	
+</div>
+<!-- partial -->
+  
+</body>
 </html>
